@@ -1,6 +1,6 @@
-package com.example.EmployeeManagementSystem.repo;
+package com.example.employeems.repo;
 
-import com.example.EmployeeManagementSystem.entity.Employee;
+import com.example.employeems.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepo extends JpaRepository<Employee,Integer> {
