@@ -1,4 +1,4 @@
-package com.example.EmployeeManagementSystem.entity;
+package com.example.employeems.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -14,8 +14,8 @@ import javax.persistence.*;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int empId;
+    private int empID;
     private String empName;
     private String empAddress;
-    private String empContact;
+    private String empMNumber;
 }
